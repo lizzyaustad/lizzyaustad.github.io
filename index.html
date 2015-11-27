@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>elizabeth.</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
+    <script>
+        $(document).ready(function(){
+    $(".circle1").click(function(){
+        $("#2").animate({left: '200px',height: '50px', width: '50px', padding: '50px', fontSize: '1.5em'});
+        $("#3").animate({right: '200px',height: '50px', width: '50px', padding: '50px', fontSize: '1.5em'});
+        $("#4").animate({right: '50px', bottom: '+=5',height: '50px', width: '50px', padding: '50px', fontSize: '1.5em'});
+        $("#5").animate({right: '100px', bottom: '-=175', height: '50px', width: '50px', padding: '50px', fontSize: '1.5em'});
+        $("#6").animate({right: '50px',bottom: '-=175', height: '50px', width: '50px', padding: '50px', fontSize: '1.5em'});
+        $("#7").animate({left: '200px',bottom: '+=175', height: '50px', width: '50px', padding: '50px', fontSize: '1.5em'});
+document.getElementById("resumelogo").style.visibility='visible';  
+document.getElementById("projectlogo").style.visibility='visible';        document.getElementById("fblogo").style.visibility='visible';
+    document.getElementById("githublogo").style.visibility='visible';
+        document.getElementById("linkedinlogo").style.visibility='visible';
+document.getElementById("email").style.visibility='visible';
+    }); 
+    
+    $("#2").click(function(){
+        window.open("Resume.pdf");
+    });
+    
+    $("#4").click(function(){
+        window.open("http://github.com/lizzyaustad");
+    });
+    
+    $("#5").click(function(){
+        window.open("http://linkedin.com/in/lizzyaustad");
+    });
+    
+    $("#6").click(function(){
+        window.open("http://www.facebook.com/lizzyaustad");
+    });
+            
+    
+});
+    </script>
+</head>
+    
+<body>
+    
+    
+    <center>
+    <br><br>
+    <div class="circle1" id="1"><img id="elizabeth" src="elizabeth.png" /></div>
+    <br><br>
+    
+    <div class="circle" id="2"><img id="resumelogo" src="resume.png" style="visibility:hidden"/></div>
+        
+        <div class="circle" id="3"><a href="projects.html"><img id="projectlogo" src="projects.png" style="visibility:hidden"/></a></div>
+        
+    
+    <br><br>
+        <div class="circle" id="4"><img id="githublogo" src="github.png" style="visibility:hidden"/></div>
+    <div class="circle" id="5"><img id="linkedinlogo" src="linkedin.png" style="visibility:hidden"/></div>
+    <div class="circle" id="6"><img id="fblogo" src="fb.png" style="visibility:hidden"/></div>
+    <br><br>
+    <div class="circle" id="7"><a href="mailto: eaustad16@amherst.edu"><img id="email" src="email.png" style="visibility:hidden"/></a></div>
+    
+    </center>
+    
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+html {
+    background: linear-gradient(cornflowerblue, #80bfff);
+    height: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+}
+
+.circle1 {
+    width: 150px;
+    height: 100px;
+    padding-top: 50px;
+    display: inline-block;
+    background-color:dimgray;
+    color: white;  
+    border-width: 10px;
+    border-radius: 50%;
+    border-color:white;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    font-family: Century Gothic, sans-serif;
+}
+.circle {
+    padding: 5px;
+    width: 0px;
+    height: 0px;
+    display: inline-block;
+    background-color:dimgray;
+    color: white;    
+    border-width: 10px;
+    border-radius: 50%;
+    border-color:white;
+    text-align: center;
+    font-size: 0px;
+    position: relative;
+    font-family: Century Gothic, sans-serif;
+}
+
+#fblogo, #githublogo, #linkedinlogo, #resumelogo, #email, #projectlogo, #elizabeth {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
