@@ -13,7 +13,11 @@
         $("#5").animate({right: '100px', bottom: '-=200', height: '50px', width: '50px', padding: '50px', fontSize: '1.5em'});
         $("#6").animate({right: '50px',bottom: '-=200', height: '50px', width: '50px', padding: '50px', fontSize: '1.5em'});
         $("#7").animate({left: '200px',bottom: '+=150', height: '50px', width: '50px', padding: '50px', fontSize: '1.5em'});
-
+            document.getElementById("habitat").style.visibility='visible';  
+document.getElementById("closest").style.visibility='visible';        document.getElementById("animation").style.visibility='visible';
+    document.getElementById("pictionary").style.visibility='visible';
+        document.getElementById("goback").style.visibility='visible';
+document.getElementById("more").style.visibility='visible';
     }); 
     
     $("#6").click(function(){
@@ -29,20 +33,20 @@
     
     <center>
     <br><br>
-    <div class="circle1" id="1"><img id="projectlogo" src="projects.png" /></div>
+    <div class="circle1" id="1"><img id="projectlogo" src="images/projects.png" /></div>
     <br><br>
     
-    <div class="circle" id="2"><a href="http://lizzyaustad.github.io/amherstHabitat/index.html">Amherst Habitat</a></div>
+    <div class="circle" id="2"><a href="http://lizzyaustad.github.io/amherstHabitat/index.html"><img id="habitat" src="images/habitat.png" style="visibility:hidden"/></a></div>
         
-    <div class="circle" id="3"><a href="index.html">Go Back</a></div>
+    <div class="circle" id="3"><a href="index.html"><img id="goback" src="images/goback.png" style="visibility:hidden"/></a></div>
         
     
     <br><br>
-        <div class="circle" id="4"><a href="https://github.com/lizzyaustad/closest-pair">Closest Pair</a></div>
-    <div class="circle" id="5"><a href="https://github.com/lizzyaustad/computerGraphics">3D Animation</a></div>
-    <div class="circle" id="6">More</div>
+        <div class="circle" id="4"><a href="https://github.com/lizzyaustad/closest-pair"><img id="closest" src="images/closestpair.png" style="visibility:hidden"/></a></div>
+    <div class="circle" id="5"><a href="https://github.com/lizzyaustad/computerGraphics"><img id="animation" src="images/animation.png" style="visibility:hidden"/></a></div>
+    <div class="circle" id="6"><img id="more" src="images/more.png" style="visibility:hidden"/></div>
     <br><br>
-    <div class="circle" id="7"><a href="http://lizzyaustad.github.io/pictionary">Pictionary</a></div>
+    <div class="circle" id="7"><a href="http://lizzyaustad.github.io/pictionary"><img id="pictionary" src="images/pictionary.png" style="visibility:hidden"/></a></div>
     
     </center>
     

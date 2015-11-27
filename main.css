@@ -15,7 +15,7 @@ h1 {
     height: 100px;
     padding-top: 50px;
     display: inline-block;
-    background-color:dimgray;
+    background: linear-gradient(lightslategray, darkgray);
     color: white;  
     border-width: 10px;
     border-radius: 50%;
@@ -35,7 +35,7 @@ h1 {
     width: 0px;
     height: 0px;
     display: inline-block;
-    background-color:dimgray;
+    background: linear-gradient(lightslategray, darkgray);
     color: white;    
     border-width: 10px;
     border-radius: 50%;
@@ -46,7 +46,7 @@ h1 {
     font-family: Century Gothic, sans-serif;
 }
 
-#fblogo, #githublogo, #linkedinlogo, #resumelogo, #email, #projectlogo, #elizabeth {
+#fblogo, #githublogo, #linkedinlogo, #resumelogo, #email, #projectlogo, #elizabeth, #habitat, #closest, #animation, #goback, #pictionary, #more {
     position: absolute;
     top: 0;
     bottom: 0;
