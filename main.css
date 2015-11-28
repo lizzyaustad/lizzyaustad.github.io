@@ -1,6 +1,7 @@
 html {
-    background: linear-gradient(cornflowerblue, #80bfff);
+    background: white;
     height: 100%;
+    color:blue
 }
 
 h1 {
@@ -15,7 +16,7 @@ h1 {
     height: 100px;
     padding-top: 50px;
     display: inline-block;
-    background: linear-gradient(lightslategray, darkgray);
+    background: linear-gradient(steelblue, cornflowerblue, #80bfff);
     color: white;  
     border-width: 10px;
     border-radius: 50%;
@@ -35,7 +36,7 @@ h1 {
     width: 0px;
     height: 0px;
     display: inline-block;
-    background: linear-gradient(lightslategray, darkgray);
+    background: linear-gradient(steelblue, cornflowerblue, #80bfff);
     color: white;    
     border-width: 10px;
     border-radius: 50%;
