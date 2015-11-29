@@ -28,8 +28,12 @@ document.getElementById("7").style.visibility='visible';
     }); 
         
     
-    $("#2").click(function(){
+    $("#resumelogo").click(function(){
         window.open("Resume.pdf");
+    });
+    
+    $("#jianlilogo").click(function(){
+        window.open("简历.pdf");
     });
     
     $("#4").click(function(){
