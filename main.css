@@ -16,7 +16,7 @@ h1 {
     height: 100px;
     padding-top: 50px;
     display: inline-block;
-    background: linear-gradient(steelblue, cornflowerblue, #80bfff);
+    background: linear-gradient(#80bfff, cornflowerblue, steelblue);
     color: white;  
     border-width: 10px;
     border-radius: 50%;
@@ -36,25 +36,23 @@ h1 {
     width: 0px;
     height: 0px;
     display: inline-block;
-    background: linear-gradient(steelblue, cornflowerblue, #80bfff);
+    background: linear-gradient(#80bfff, cornflowerblue, steelblue);
     color: white;    
     border-width: 10px;
     border-radius: 50%;
     border-color:white;
     text-align: center;
     font-size: 0px;
-    position: relative;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
     font-family: Century Gothic, sans-serif;
     
 }
 
-#2 {
-    top: 0; bottom: 0; left: 100; margin:auto;
-}
-
-#3 {
-    top: 0; bottom: 0; left: 0; right: 200; margin:auto;
-}
 
 #fblogo, #githublogo, #linkedinlogo, #resumelogo, #email, #projectlogo, #elizabeth, #habitat, #closest, #animation, #goback, #pictionary, #more {
     position: absolute;
