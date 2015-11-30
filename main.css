@@ -1,5 +1,5 @@
 html {
-    background: white;
+    background: linear-gradient(lightgray,white);
     height: 100%;
     color:blue
 }
@@ -54,7 +54,7 @@ h1 {
 }
 
 
-#fblogo, #githublogo, #linkedinlogo, #resumelogo, #email, #projectlogo, #elizabeth, #habitat, #closest, #animation, #goback, #pictionary, #more {
+#fblogo, #githublogo, #linkedinlogo, #resumelogo, #email, #projectlogo, #elizabeth, #habitat, #closest, #animation, #goback, #pictionary, #more, #jianlilogo {
     position: absolute;
     top: 0;
     bottom: 0;
