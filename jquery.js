@@ -36,15 +36,15 @@ document.getElementById("7").style.visibility='visible';
         window.open("简历.pdf");
     });
     
-    $("#4").click(function(){
+    $("#githublogo").click(function(){
         window.open("http://github.com/lizzyaustad");
     });
     
-    $("#5").click(function(){
+    $("#linkedinlogo").click(function(){
         window.open("http://linkedin.com/in/lizzyaustad");
     });
     
-    $("#6").click(function(){
+    $("#fblogo").click(function(){
         window.open("http://www.facebook.com/lizzyaustad");
     });
             
