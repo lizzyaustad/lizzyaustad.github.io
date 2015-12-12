@@ -39,6 +39,9 @@ document.getElementById("7").style.visibility='visible';
     $("#githublogo").click(function(){
         window.open("http://github.com/lizzyaustad");
     });
+    $("#more").click(function(){
+        window.open("http://github.com/lizzyaustad");
+    });
     
     $("#linkedinlogo").click(function(){
         window.open("http://linkedin.com/in/lizzyaustad");
