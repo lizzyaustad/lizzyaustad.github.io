@@ -1,5 +1,5 @@
 #html {
-    background: linear-gradient(lightgray,white);
+    
     height: 100%;
     width: 100%;
     font-family: Century Gothic, sans-serif;
@@ -7,11 +7,11 @@
 
 
 h1 {
-    color: white;
+    color: steelgray;
     text-align: left;
-    text-decoration: underline;
     padding: 10px;
     font-size: 50px;
+    text-shadow: 2px 2px #aaaaaa;
 }
 
 .circle1 {
@@ -81,7 +81,6 @@ h1 {
 
 #projects {
   padding: 40px;
-    background: linear-gradient(lightgray,white);
     height: 100%;
     font-family: Century Gothic, sans-serif;
 }
