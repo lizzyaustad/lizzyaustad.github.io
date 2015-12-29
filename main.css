@@ -72,17 +72,23 @@ h1 {
 }
 
 #about {
-    background: linear-gradient(lightgray,white);
-    height: 100%;
+    background: linear-gradient(steelblue,cornflowerblue);
     font-family: Century Gothic, sans-serif;
-    padding: 40px;
+    padding-left: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    color: white;
 }
 
 
 #projects {
-  padding: 40px;
+  padding-left: 90px;
     height: 100%;
     font-family: Century Gothic, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
 }
 
 ul {
@@ -100,5 +106,17 @@ ul {
   text-align: center;
   font-size: 0px;
   position: absolute;
-  
 }
+
+.abcircle {
+  padding: 60px;
+  background: linear-gradient(azure, lightgray, white);
+  color: darksteelgray;
+  border-width: 10px;
+  border-radius: 50%;
+  border-color: white;
+  text-align: center;
+  font-size: 0px;
+  position: absolute;
+}
+
