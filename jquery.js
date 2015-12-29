@@ -24,17 +24,7 @@ $(document).ready(function(){
     document.getElementById("6").style.visibility='visible';
     document.getElementById("7").style.visibility='visible';
         
-    //}); 
-      $('section[data-type="background"]').each(function(){
-        var $bgobj = $(this); // assigning the object
-           $(window).scroll(function() {
-                var yPos = -($window.scrollTop() / $bgobj.data('speed'));
-               var coords = '50% '+ yPos + 'px';
-                
-                // Move the background
-                $bgobj.css({ backgroundPosition: coords });
-            });
-        });   
+      
     
     $("#resumelogo").click(function(){
         window.open("Resume.pdf");
@@ -55,8 +45,8 @@ $(document).ready(function(){
         window.open("http://linkedin.com/in/lizzyaustad");
     });
     
-    $("#fblogo").click(function(){
-        window.open("http://www.facebook.com/lizzyaustad");
+    $("#cplogo").click(function(){
+        window.open("http://codepen.io/lizzyaustad/");
     });
             
     
