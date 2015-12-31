@@ -33,6 +33,7 @@ h1 {
     right: 0;
     margin:auto;
     font-family: Century Gothic, sans-serif;
+    box-shadow: 5px 5px 5px #888888;
 }
 .circle {
     padding: 5px;
@@ -53,7 +54,7 @@ h1 {
     right: 0;
     margin:auto;
     font-family: Century Gothic, sans-serif;
-    
+    box-shadow: 5px 5px 5px #888888;
 }
 
 
@@ -106,6 +107,7 @@ ul {
   text-align: center;
   font-size: 0px;
   position: absolute;
+  box-shadow: 5px 5px 5px #888888;
 }
 
 .abcircle {
@@ -118,5 +120,6 @@ ul {
   text-align: center;
   font-size: 0px;
   position: absolute;
+  box-shadow: 5px 5px 5px #888888;
 }
 
