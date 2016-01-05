@@ -23,31 +23,11 @@ $(document).ready(function(){
     document.getElementById("5").style.visibility='visible';
     document.getElementById("6").style.visibility='visible';
     document.getElementById("7").style.visibility='visible';
-        
-      
-    
-    $("#resumelogo").click(function(){
-        window.open("Resume.pdf");
-    });
     
     $("#jianlilogo").click(function(){
         window.open("简历.pdf");
     });
     
-    $("#githublogo").click(function(){
-        window.open("http://github.com/lizzyaustad");
-    });
-    $("#more").click(function(){
-        window.open("http://github.com/lizzyaustad");
-    });
     
-    $("#linkedinlogo").click(function(){
-        window.open("http://linkedin.com/in/lizzyaustad");
-    });
-    
-    $("#cplogo").click(function(){
-        window.open("http://codepen.io/lizzyaustad/");
-    });
             
-    
 });

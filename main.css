@@ -1,17 +1,19 @@
 #html {
-    
     height: 100%;
     width: 100%;
-    font-family: Century Gothic, sans-serif;
+    font-family: 'Handlee', cursive;
+    color: #4D4032;
 }
 
 
 h1 {
     color: steelgray;
-    text-align: left;
+    text-align: center;
     padding: 10px;
     font-size: 50px;
     text-shadow: 2px 2px #aaaaaa;
+    font-family: sans-serif;
+    margin-bottom: 0px;
 }
 
 .circle1 {
@@ -19,7 +21,7 @@ h1 {
     height: 50px;
     padding: 40px;
     display: inline-block;
-    background: linear-gradient(#80bfff, cornflowerblue, steelblue);
+    background: linear-gradient(steelblue,cornflowerblue,steelblue);
     color: white;  
     border-width: 10px;
     border-radius: 50%;
@@ -32,7 +34,6 @@ h1 {
     left: 0;
     right: 0;
     margin:auto;
-    font-family: Century Gothic, sans-serif;
     box-shadow: 5px 5px 5px #888888;
 }
 .circle {
@@ -40,7 +41,7 @@ h1 {
     width: 0px;
     height: 0px;
     display: inline-block;
-    background: linear-gradient(#80bfff, cornflowerblue, steelblue);
+    background: linear-gradient(steelblue,cornflowerblue,steelblue);
     color: white;    
     border-width: 10px;
     border-radius: 50%;
@@ -53,8 +54,8 @@ h1 {
     left: 0;
     right: 0;
     margin:auto;
-    font-family: Century Gothic, sans-serif;
     box-shadow: 5px 5px 5px #888888;
+    
 }
 
 
@@ -73,33 +74,55 @@ h1 {
 }
 
 #about {
+    
     background: linear-gradient(steelblue,cornflowerblue);
-    font-family: Century Gothic, sans-serif;
-    padding-left: 90px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 25px;
+    background-size: cover;
+    font-family: sans-serif;
+    padding: 20px;
+    padding-bottom: 50px;
     color: white;
 }
 
 
 #projects {
-  padding-left: 90px;
+  padding-left: 150px;
     height: 100%;
-    font-family: Century Gothic, sans-serif;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 25px;
+    color: steelblue;
 }
 
 ul {
-    margin-left: 150px;
-    margin-top: 20px;
+    margin-left: 200px;
+    
 }
-
+#projecttext {
+    color: steelblue;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#abtext {
+    margin: auto;
+    text-align: left;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-left: 550px;
+    margin-right: 100px;
+    display: inline-block;
+}
+#cube {
+    display: inline-block;
+    height: 350px;
+    margin-left: 150px;
+    margin-top: -50px;
+}
 .procircle {
   padding: 60px;
-  background: linear-gradient(#80bfff, cornflowerblue, steelblue);
+  background: linear-gradient(steelblue,cornflowerblue,steelblue);
   color: white;
   border-width: 10px;
   border-radius: 50%;
@@ -107,19 +130,12 @@ ul {
   text-align: center;
   font-size: 0px;
   position: absolute;
-  box-shadow: 5px 5px 5px #888888;
+   box-shadow: 5px 5px 5px #888888;
+    margin-left: 40px;
 }
 
 .abcircle {
-  padding: 60px;
-  background: linear-gradient(azure, lightgray, white);
-  color: darksteelgray;
-  border-width: 10px;
-  border-radius: 50%;
-  border-color: white;
   text-align: center;
   font-size: 0px;
   position: absolute;
-  box-shadow: 5px 5px 5px #888888;
 }
-
