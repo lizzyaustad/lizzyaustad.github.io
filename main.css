@@ -3,15 +3,21 @@
     width: 100%;
     font-family: sans-serif;
     color: #4D4032;
+   
 }
 
+#home {
+    background-image: url("http://cloud9condos.ca/images/greyClouds.png");
+    background-size: 1500px 600px;
+    background-repeat: no-repeat;
+}
 #menu {
     display: inline-block;
     background: cornflowerblue;
     color: aliceblue;
     text-align: center;
     padding: 5px;
-    width: 100%;
+    width: 99.3%;
     font-size: 18px;
     position: relative;
     font-family: sans-serif;
