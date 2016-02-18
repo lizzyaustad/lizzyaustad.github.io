@@ -8,7 +8,7 @@
 
 #home {
     background-image: url("http://cloud9condos.ca/images/greyClouds.png");
-    background-size: 1500px 600px;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 #menu {
